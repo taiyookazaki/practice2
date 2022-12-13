@@ -22,6 +22,9 @@
             <a href="/posts/{{ $post->id }}/edit">
                 edit
             </a>
+            <a href="/categories/{{ $post->category->id }}">
+                {{ $post->category->name }}
+            </a>
         </div>
         <div class="footer">
             <a href="/">戻る</a>
